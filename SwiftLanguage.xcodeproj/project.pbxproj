@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1CD49FD938AE3764A55D31 /* Pods_SwiftLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BAF05E6C624766617CB887 /* Pods_SwiftLanguage.framework */; };
 		F6F373FF1EA06D4600E121FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F373FE1EA06D4600E121FB /* AppDelegate.swift */; };
 		F6F374011EA06D4600E121FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F374001EA06D4600E121FB /* ViewController.swift */; };
 		F6F374041EA06D4600E121FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F374021EA06D4600E121FB /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		F6F374091EA06D4600E121FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F374071EA06D4600E121FB /* LaunchScreen.storyboard */; };
 		F6F374141EA06D4700E121FB /* SwiftLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F374131EA06D4700E121FB /* SwiftLanguageTests.swift */; };
 		F6F3741F1EA06D4700E121FB /* SwiftLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F3741E1EA06D4700E121FB /* SwiftLanguageUITests.swift */; };
+		F6F374301EA06E4C00E121FB /* ErrorHandeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F3742F1EA06E4C00E121FB /* ErrorHandeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BAF05E6C624766617CB887 /* Pods_SwiftLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812EE3A3F9DC0F1F35995A2 /* Pods-SwiftLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLanguage.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLanguage/Pods-SwiftLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		26C36091C19584FEA4E305D6 /* Pods-SwiftLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLanguage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLanguage/Pods-SwiftLanguage.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F373FB1EA06D4600E121FB /* SwiftLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F373FE1EA06D4600E121FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F374001EA06D4600E121FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		F6F3741A1EA06D4700E121FB /* SwiftLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F3741E1EA06D4700E121FB /* SwiftLanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageUITests.swift; sourceTree = "<group>"; };
 		F6F374201EA06D4700E121FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F3742F1EA06E4C00E121FB /* ErrorHandeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1CD49FD938AE3764A55D31 /* Pods_SwiftLanguage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCC0C36331ADE3FDC3E1DC02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C36091C19584FEA4E305D6 /* Pods-SwiftLanguage.debug.xcconfig */,
+				1812EE3A3F9DC0F1F35995A2 /* Pods-SwiftLanguage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D722B9634DBE9634534FC57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BAF05E6C624766617CB887 /* Pods_SwiftLanguage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F673554B1EA0721600EC714D /* ThreePart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThreePart;
+			sourceTree = "<group>";
+		};
 		F6F373F21EA06D4600E121FB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				F6F374121EA06D4700E121FB /* SwiftLanguageTests */,
 				F6F3741D1EA06D4700E121FB /* SwiftLanguageUITests */,
 				F6F373FC1EA06D4600E121FB /* Products */,
+				CCC0C36331ADE3FDC3E1DC02 /* Pods */,
+				D722B9634DBE9634534FC57A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +133,8 @@
 				F6F373FE1EA06D4600E121FB /* AppDelegate.swift */,
 				F6F374001EA06D4600E121FB /* ViewController.swift */,
 				F6F374021EA06D4600E121FB /* Main.storyboard */,
+				F673554B1EA0721600EC714D /* ThreePart */,
+				F6F3742E1EA06E2900E121FB /* grammar */,
 				F6F374051EA06D4600E121FB /* Assets.xcassets */,
 				F6F374071EA06D4600E121FB /* LaunchScreen.storyboard */,
 				F6F3740A1EA06D4600E121FB /* Info.plist */,
@@ -125,6 +160,14 @@
 			path = SwiftLanguageUITests;
 			sourceTree = "<group>";
 		};
+		F6F3742E1EA06E2900E121FB /* grammar */ = {
+			isa = PBXGroup;
+			children = (
+				F6F3742F1EA06E4C00E121FB /* ErrorHandeController.swift */,
+			);
+			path = grammar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F374231EA06D4700E121FB /* Build configuration list for PBXNativeTarget "SwiftLanguage" */;
 			buildPhases = (
+				44D708FF35AD7C6C0CFD5EDB /* [CP] Check Pods Manifest.lock */,
 				F6F373F71EA06D4600E121FB /* Sources */,
 				F6F373F81EA06D4600E121FB /* Frameworks */,
 				F6F373F91EA06D4600E121FB /* Resources */,
+				75DBE12C106C3194B290C7A9 /* [CP] Embed Pods Frameworks */,
+				038A3B5C7ED6B4B384349F4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +300,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		038A3B5C7ED6B4B384349F4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLanguage/Pods-SwiftLanguage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44D708FF35AD7C6C0CFD5EDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75DBE12C106C3194B290C7A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLanguage/Pods-SwiftLanguage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6F373F71EA06D4600E121FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +355,7 @@
 			files = (
 				F6F374011EA06D4600E121FB /* ViewController.swift in Sources */,
 				F6F373FF1EA06D4600E121FB /* AppDelegate.swift in Sources */,
+				F6F374301EA06E4C00E121FB /* ErrorHandeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +503,7 @@
 		};
 		F6F374241EA06D4700E121FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C36091C19584FEA4E305D6 /* Pods-SwiftLanguage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLanguage/Info.plist;
@@ -420,6 +516,7 @@
 		};
 		F6F374251EA06D4700E121FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1812EE3A3F9DC0F1F35995A2 /* Pods-SwiftLanguage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLanguage/Info.plist;
@@ -503,6 +600,7 @@
 				F6F374251EA06D4700E121FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6F374261EA06D4700E121FB /* Build configuration list for PBXNativeTarget "SwiftLanguageTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +609,7 @@
 				F6F374281EA06D4700E121FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6F374291EA06D4700E121FB /* Build configuration list for PBXNativeTarget "SwiftLanguageUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +618,7 @@
 				F6F3742B1EA06D4700E121FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
