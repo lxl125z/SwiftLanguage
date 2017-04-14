@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         steupTableView()
-        
+        //22222222
     }
     
     func steupTableView(){
