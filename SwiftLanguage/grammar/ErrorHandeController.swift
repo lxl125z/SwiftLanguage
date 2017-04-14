@@ -19,7 +19,6 @@ class ErrorHandeController: UIViewController {
         self.view.backgroundColor = UIColor.white
         
         errorOptionTry()
-        
     }
 }
 
